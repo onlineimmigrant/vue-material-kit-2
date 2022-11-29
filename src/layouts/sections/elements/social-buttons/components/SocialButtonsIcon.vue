@@ -1,0 +1,86 @@
+<script setup>
+//Vue Material Kit 2 Pro components
+import MaterialSocialButton from "@/components/MaterialSocialButton.vue";
+</script>
+<template>
+  <section class="py-7">
+    <div class="container">
+      <div class="row justify-space-between text-center py-2">
+        <div class="col-12 mx-auto">
+          <MaterialSocialButton
+            route="javascript:;"
+            color="facebook"
+            component="facebook"
+            iconOnly
+          />
+          <MaterialSocialButton
+            route="javascript:;"
+            color="twitter"
+            component="twitter"
+            iconOnly
+          />
+          <MaterialSocialButton
+            route="javascript:;"
+            color="instagram"
+            component="instagram"
+            iconOnly
+          />
+          <MaterialSocialButton
+            route="javascript:;"
+            color="github"
+            component="github"
+            iconOnly
+          />
+          <MaterialSocialButton
+            route="javascript:;"
+            color="pinterest"
+            component="pinterest"
+            iconOnly
+          />
+          <MaterialSocialButton
+            route="javascript:;"
+            color="youtube"
+            component="youtube"
+            iconOnly
+          />
+          <MaterialSocialButton
+            route="javascript:;"
+            color="vimeo"
+            component="vimeo-v"
+            iconOnly
+          />
+          <MaterialSocialButton
+            route="javascript:;"
+            color="slack"
+            component="slack"
+            iconOnly
+          />
+          <MaterialSocialButton
+            route="javascript:;"
+            color="dribbble"
+            component="dribbble"
+            iconOnly
+          />
+          <MaterialSocialButton
+            route="javascript:;"
+            color="reddit"
+            component="reddit"
+            iconOnly
+          />
+          <MaterialSocialButton
+            route="javascript:;"
+            color="tumblr"
+            component="tumblr"
+            iconOnly
+          />
+          <MaterialSocialButton
+            route="javascript:;"
+            color="linkedin"
+            component="linkedin"
+            iconOnly
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
